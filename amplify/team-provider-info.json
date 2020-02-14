@@ -1,0 +1,27 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tesla-dev-133515-authRole",
+            "UnauthRoleArn": "arn:aws:iam::434891280252:role/amplify-tesla-dev-133515-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::434891280252:role/amplify-tesla-dev-133515-authRole",
+            "Region": "ap-south-1",
+            "DeploymentBucketName": "amplify-tesla-dev-133515-deployment",
+            "UnauthRoleName": "amplify-tesla-dev-133515-unauthRole",
+            "StackName": "amplify-tesla-dev-133515",
+            "StackId": "arn:aws:cloudformation:ap-south-1:434891280252:stack/amplify-tesla-dev-133515/6927aa90-4d6e-11ea-a0db-028f38a10716",
+            "AmplifyAppId": "d34i3ujbirkeyt"
+        },
+        "categories": {
+            "function": {
+                "teslaea4dcaeaCustomMessage": {
+                    "REDIRECTURL": "",
+                    "EMAILSUBJECT": "",
+                    "EMAILMESSAGE": ""
+                }
+            },
+            "auth": {
+                "teslaea4dcaea": {}
+            }
+        }
+    }
+}
