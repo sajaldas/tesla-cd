@@ -1,19 +1,4 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,7 +11,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +21,19 @@
     transform: rotate(360deg);
   }
 }
+
+header{min-height: 12vh; display: block; background-color: #282c34; color: #ddd;align-items: center;}
+footer{min-height: 8vh; display: block; background-color: #282c34; color: #ddd;align-items: center;}
+.container { min-height: 80vh; display: block; width: 80%; margin: 0 auto; }
+
+.form-container { display: table; height: 70vh; width: 100%; }
+.form-wrap { display: table-cell; vertical-align: middle; }
+.form-inner { width: 32%; margin: 0 auto; }
+.form-container form { border: 1px solid #000; display: block; padding: 10px; box-sizing: border-box; border-radius: 5px; }
+
+.formrow { display: block; margin-bottom: 15px; text-align: left;}
+.formrow label { text-align: left; display: inline-block; width: 30%; }
+.formrow input[type="text"], .formrow input[type="email"], .formrow input[type="password"] { min-width: 230px; padding: 8px 5px; border: 1px solid #ddd; }
+.form-inner .formtoggle { text-align: center; padding-top: 5px; }
+.formtoggle span {color: blue; cursor: pointer;}
+.msg {color: #f00;}
